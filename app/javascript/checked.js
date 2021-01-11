@@ -28,11 +28,3 @@ function check() {
 }
 setInterval(check, 1000);
 
-
-function check() {
-  const posts = document.querySelectorAll(".post");
-  posts.forEach(function (post) {
-    post.addEventListener("click", () => { });
-  });
-}
-window.addEventListener("load", check);
